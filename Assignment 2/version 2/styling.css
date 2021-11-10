@@ -1,0 +1,112 @@
+<style media="screen">
+  .header {
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 50%;
+    /* position: 50% */
+  }
+  .nav {
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    width: 70%;
+
+  }
+  .header a {
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+
+  }
+  .topNav {
+    background-color: black;
+    height: 40px;
+    text-align: center;
+
+  }
+  .FrameDiv {
+    text-align: center;
+  }
+  .Assignment1Frame {
+    border: solid #E75480;
+    margin: 10px;
+  }
+  .Second-Container{
+      height:400px;
+      text-align: center;
+
+  }
+
+  .float-child{
+    width: 40%;
+    float: left;
+    padding: 20px;
+    height: 80%;
+
+
+
+
+  }
+  .ImageDiv{
+    text-align: center;
+    margin: 10%;
+    margin-bottom: 10%;
+    width:100%;
+
+  }
+  .ImageDiv img{
+    margin-left: 7%;
+    margin-right: 7%;
+    width: 80%;
+    height: 240px;
+    border: solid black;
+    border-radius: 10px;
+  }
+  .ParaDiv{
+    height: 66%;
+    margin: 40px 40px 0px 40px;
+
+    width:80%;
+
+  }
+  .ParaDiv p{
+    margin: 0;
+    ;
+
+  }
+  .btn-container{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+  }
+  .btn {
+    background-color: orange;
+    color: white;
+    border: none orange;
+    border-radius: 3px;
+    width: 160px;
+    text-align: center;
+    height: 27px;
+  }
+  .footer{
+
+
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom:0;
+    height: 50px;
+    
+
+  }
+
+
+
+</style>

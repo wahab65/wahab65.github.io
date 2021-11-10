@@ -1,0 +1,53 @@
+<style media="screen">
+.NavBar{
+
+
+}
+.NavBar{
+  text-align: center;
+
+}
+.NavBar ul{
+  list-style-type: none;
+}
+
+
+table{
+  column-fill: green;
+  font-style: italic;
+}
+p{
+  font-size: 20px;
+}
+
+td.row {
+  width: 25%;
+  text-align: center;
+}
+.firstText{
+  border: solid red;
+}
+.box {
+margin: 2px;
+border-radius: 7px;
+border: solid orange;
+float: left;
+width: 31%;
+text-align: center;
+height: 200px;
+display: inline-block;
+
+}
+.NYCimage{
+width: 99%;
+height: 60%;
+
+}
+.box p{
+  font-size: 10px;
+
+}
+
+
+
+</style>
