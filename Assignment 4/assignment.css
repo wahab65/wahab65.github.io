@@ -1,0 +1,97 @@
+<style media="screen">
+
+  .body{
+
+  }
+  .container{
+    text-align: center;
+  }
+
+  .container div{
+    margin:4%;
+    border: darkorange solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40%;
+    height: 400px;
+    flex-direction: column;
+    float: left;
+  }
+
+
+  .container p{
+    width: 75%;
+  }
+  .ProductWrapper img{
+    width: 50%;
+    height: 60%;
+
+  }
+  .ProductWrapper a{
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 32px ;
+    color: white;
+
+  }
+
+  .btn:hover {
+    background-color: darkorange;
+  }
+
+  .myModal{
+    opacity:0;
+    pointer-events: none;
+    position: fixed;
+    top:0px;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  .firstModal{
+    background-color: rgba(58, 83, 155, 0.9);
+  }
+  .secondModal{
+    background-color: rgba(46, 204, 113, 0.9);
+  }
+  .msgBlock{
+    margin-top: 10px;;
+    width: 60%;
+    height: 500px;;
+  }
+  .myModal:target{
+    opacity: 1;
+    pointer-events: all;
+  }
+  .msgBlock a{
+    top: 10px;
+    right: 20%;
+    position: absolute;
+    background-color:white;
+    border: solid lightpink;
+  }
+  .msgBlock img{
+    width: 50%;
+    height: 30%
+    padding-top: 5%;
+    padding-left: 25%;
+  }
+  .msgBlock p{
+    display: flex;
+    margin: 2%;
+    margin-top: 5%;;
+    background-color: lightpink;
+    border-radius: 4px;
+  }
+
+  .h2Wrapper{
+    border: lightpink solid;
+    background-color: lightpink;
+    color: white;
+  }
+
+</style>
