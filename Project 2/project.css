@@ -1,0 +1,359 @@
+<style media="screen">
+.body{
+
+}
+
+  .body{
+    background-color: rgb(255, 248, 220);
+    margin-left:100px;
+  }
+
+
+/* HeaderWrapper */
+
+  .HeaderWrapper{
+    height:100px;
+
+  }
+  .iconContainer{
+    height: 95%;
+    width: 13%;
+    float: left;
+    margin-left: 10%;
+
+  }
+  .iconDiv{
+    border: #6B8E23 solid;
+    border-radius: 12px;
+    height: 98%;
+    width: 95%;
+    margin-left: 0%;
+    animation: iconAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  .iconDiv img{
+
+    width: 95%;
+    height: 95%;
+  }
+
+  .TitleDiv{
+    position: absolute;
+    padding-top: 0px;
+    height: 80%;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+  }
+  .TitleDiv h1{
+    font-family: Brush Script MT;
+    color: #556B2F;
+    margin-left: 30%;
+    margin-top: 3px;
+    font-size: 37px;
+    padding: 0;
+    margin-bottom:0;
+
+
+
+  }
+  .TitleDiv h2{
+    margin-left: 30%;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 15px;
+
+  }
+  @keyframes iconAnimation {
+    0%{height: 10%; width: 10%; margin-left: 40%; margin-top: 40%}
+    100%{height: 95%; width: 95%;margin-left: 0%; margin-top: 0%}
+
+  }
+  @keyframes mainHeader {
+    0%{}
+    0%{}
+    0%{}
+    0%{}
+
+
+  }
+
+
+  /* Stage  */
+
+  .stage{
+    margin-top: 10px;
+    height: 60px;
+  }
+  .slideWrapper{
+    width: 300%;
+    text-align: center;
+    animation: slideShow 15s;
+  }
+
+  .slides{
+    color: white;
+    float: left;
+    width: 33.33%;
+    font-size: 16px;
+  }
+  .slides h3{
+    font-size: 16px;
+  }
+  .slides b{
+    font-size: 22px;
+  }
+  .s1{
+    background-color: #808000;
+;
+
+  }
+  .s2{
+    background-color: #556B2F;
+;
+  }
+  .s3{
+    background-color: #BDB76B;
+;
+  }
+  @keyframes slideShow {
+      0% { margin-left: 0%}
+      30% { margin-left: 0%}
+      60% { margin-left: -100% }
+      90% { margin-left: -200%}
+      100% { margin-left: -200%}
+
+  }
+
+  /* flowerWrapper */
+
+  .flowerWrapper{
+    height: 400px;
+    background-image: url(images/intro_img2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .descriptionWrapper{
+    position: absolute;
+    background-color: lightgrey ;
+    border: white solid 4px;
+    width: 42%;
+    top: 30%;
+    left: 4%;
+  }
+
+  /* TwoBox */
+
+    .TwoBoxWrapper{
+      height: 280px;
+      margin-top: 30px;
+      margin-bottom:30px;
+    }
+    .Box1{
+      background-image: url(images/intro_img1.jpg);
+      background-repeat:
+      filter: grayscale(20%);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      margin-left: 3%;
+      float: left;
+      height: 260px;
+      width: 40%;
+      color: white;
+      font-size: 14px;
+
+    }
+    .Box1 p{
+      position: relative;
+      width: 60%;
+      top: 10%;
+      left: 15%;
+      padding: 5% 5% 12% 5%;
+      border: solid 1px yellow;
+    }
+    .Box2{
+      font-size: 13px;
+      color: green;
+      padding-left: 3%;
+      height: 260px;
+      margin-right: 3%;
+      float: right;
+      width: 40%;
+      border: 1px solid lightgrey;
+      background-image: linear-gradient(to right top, #EEEEEE, #CCFFCC );
+    }
+
+    /* Body Lotion */
+    .LotionHeader{
+      padding-left: 5%;
+      color: olive;
+    }
+    .line{
+      color: olive;
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+
+    .lotionWrapper{
+      margin-top: 18px;
+      margin-left: 2%;
+      margin-right: 2%;
+      height: 440px;
+      text-align: center;
+    }
+    .lotionDiv{
+      margin-left: 2%;
+      float:left;
+      width:30%;
+      height: 95%;
+    }
+    .lotionImage{
+      height:45%;
+      width:70%;
+    }
+    .button{
+      background-color: black;
+      color: white;
+      font-size: 10px;
+      padding: 10px 10px;
+      text-decoration: none;
+    }
+    .lotionDiv h5{
+      color: olivedrab;
+      font-size: 12px;
+    }
+
+    /* Modals for Body Lotion */
+
+    .lotionModals{
+      opacity: 0;
+      pointer-events: none;
+      position:fixed;
+      top: 0px;
+      bottom: 0px;
+      left:0px;
+      right: 0px;
+      display: flex;
+      justify-content: center;
+      background-color: rgb(211,211,211, 0.7);
+
+
+    }
+    .lotionModals:target{
+      opacity: 1;
+      pointer-events: all;
+    }
+    .productDetailContainer{
+      margin-top: 30px;
+      width: 60%;
+      height: 450px;
+      background-color: white;
+      border: black solid;
+    }
+    .wrapper{
+      margin-top: 10px;
+      margin-left: 10%;
+      margin-right: 10%;
+      height: 60%;
+    }
+    .product{
+      height:75%;
+    }
+    .productDetailContainer h3{
+      font-weight:normal;
+
+    }
+    .productDetailContainer img{
+      float:left;
+      width: 45%;
+      height: 90%;
+    }
+    .details{
+      float: left;
+      width:50%;
+      height:90%;
+    }
+    .LastModalDivContainer{
+      background-color: lightgrey;
+      padding-bottom:3%;
+    }
+    .lastdivWrapper{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .buttonModal{
+      padding: 5px 10px;
+      text-decoration: none;
+      background-color: white;
+      color: black;
+    }
+    .exit{
+      top:33px;
+      right:20.1%;
+      position: absolute;
+      background-color: lightgrey;
+      color: black;
+      padding: 8px 10px;
+      text-decoration: none;
+
+    }
+    .button:hover{
+      background-color: grey;
+    }
+
+    /* footer */
+    .footer{
+      height: 400px;
+      background-color: black;
+    }
+
+      .LinkBoxes{
+        float: left;
+        text-align: center;
+        width:24.9%;
+        color: white;
+        padding-bottom: 30px;
+      }
+      .LinkBoxes p{
+        padding: 0;
+        margin:0;
+        font-size: 12px;
+        /* padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0px; */
+      }
+      .socialMediaContainer{
+        width: 100%;
+        height:180px;
+
+      }
+      .socialMediaWrapper{
+        margin-top: 20px;
+        margin-right: 25px;
+        float: right;
+        color: white;
+      }
+      .imageWrapper{
+        width:99%;
+      }
+      .imageWrapper img{
+        margin: 5px;
+        width: 13%;
+        padding: 2px;
+        height: 25px;
+      }
+
+
+      .copyright{
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 10px;
+
+      }
+
+
+
+</style>
